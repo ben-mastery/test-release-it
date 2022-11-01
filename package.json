@@ -11,6 +11,14 @@
     "@release-it-plugins/workspaces": "^3.2.0",
     "lerna": "^6.0.1"
   },
+  "release-it": {
+    "plugins": {
+      "@release-it-plugins/workspaces": {
+        "publish": false
+      }
+    },
+    "npm": false
+  },
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ben S <ext.Ben.Schaufler@mastery.net>",
