@@ -4,8 +4,13 @@
   "workspaces": [
     "packages/*"
   ],
+  "repository": "git@github.com:ben-mastery/test-release-it.git",
   "scripts": {
     "release": "release-it"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@release-it-plugins/workspaces": "^3.2.0",
