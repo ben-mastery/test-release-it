@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@release-it-plugins/workspaces": "^3.2.0",
+    "lerna": "^6.0.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ben S <ext.Ben.Schaufler@mastery.net>",
+  "license": "MIT",
+  "dependencies": {
+    "release-it": "^15.5.0"
+  }
+}
